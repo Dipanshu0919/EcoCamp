@@ -1,0 +1,11 @@
+Flask
+gunicorn
+flask-cors
+sqlitecloud
+# google-generativeai
+python_dotenv
+requests
+tzdata
+googletrans==3.1.0a0
+eventlet
+flask-socketio

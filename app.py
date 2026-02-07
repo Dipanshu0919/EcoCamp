@@ -11,7 +11,7 @@ from datetime import timedelta
 import sqlitecloud as sq
 from functools import wraps
 
-from modules import sendlog, sendmail, sendmailthread, del_event, detailsformat, addevent
+from modules import sendlog, sendmail, sendmailthread, del_event, detailsformat, addevent, addeventrequest, delete_eventfromid
 
 app = Flask(__name__)
 socket = SocketIO(app, cors_allowed_origins="*")
@@ -291,8 +291,6 @@ def show_campaigns(c):
 
     global active_events
     total_events = [len(events) for events in allevents.values()]
-    print(total_events)
-    print(allevents)
     active_events = sum(total_events)
 
     isadmin = False
@@ -320,6 +318,7 @@ def viewyourevents(username):
     session["viewyourevents"] = True
     session["vieweventusername"] = username
     return "OK"
+
 
 @app.route("/setsortby/<path:sortby>", methods=["GET", "POST"])
 def setsortby(sortby):
@@ -382,43 +381,14 @@ def login(c):
 @sqldb
 def addnewevent(c):
     if request.method == "POST":
-        return addevent(c, request, redirect, url_for)
+        return addevent(c, request)
 
 
 @app.route("/addeventreq", methods=["GET", "POST"])
 @sqldb
 def addeventreq(c):
     if request.method == "POST":
-        uuname, uemail = session.get("username"), session.get("email")
-        field = ["eventname", "email", "starttime", "endtime", "eventdate", "enddate", "location", "category", "description", "username"]
-        event_values = [request.form.get(y) for y in field]
-        event_values[-1], event_values[1] = uuname, uemail
-        check = c.execute("SELECT * FROM eventdetail WHERE eventname=(?)", (event_values[0],))
-        fetchall = check.fetchall()
-        for ab in fetchall:
-                if all(ab[x] == y for x,y in zip(field, event_values)):
-                    return "Event Already Exists"
-
-        fetchall2 = c.execute("SELECT * FROM eventreq WHERE eventname=(?)", (event_values[0],)).fetchall()
-        for ab in fetchall2:
-                if all(ab[x] == y for x,y in zip(field, event_values)):
-                    return "Event Already Submitted! Please Wait For Approval"
-
-        efields = ", ".join(field)
-        vals = ", ".join(["?"] * len(event_values))
-        if not uuname:
-            return "Please Login First To Add Event."
-        desc = event_values[8]
-        t = Translator()
-        if t.detect(desc).lang != "en":
-            translated_desc = t.translate(desc, dest="en").text
-            event_values[8] = translated_desc
-        c.execute(f"INSERT INTO eventreq({efields}) VALUES ({vals})", tuple(event_values))
-        for x in field:
-            if x not in ("email", "username"):
-                session.pop(x, None)
-        sendlog(f"#EventRequst \nNew Event Request: {event_values} by {uuname}")
-        return "Event Registered ✅. Kindly wait for approval!"
+        return addeventrequest(c, request, session)
 
 @app.route("/show_pending_events")
 @sqldb
@@ -439,26 +409,7 @@ def pendingevents(c):
 @app.route("/deleteevent/<int:eventid>")
 @sqldb
 def deleteevent(c, eventid):
-    uname = session.get("username")
-    if not uname:
-        return "Login First"
-    c.execute("SELECT * FROM eventdetail WHERE eventid=?", (eventid,))
-    fe = c.fetchone()
-    extra = c.execute("SELECT * FROM userdetails WHERE username=?", (fe["username"], )).fetchone()
-    c.execute("SELECT * FROM userdetails WHERE username=?", (uname,))
-    fe2 = c.fetchone()
-    if fe["username"] == uname or fe2["role"]=="admin":
-        try:
-            del_event(c, eventid)
-            details = detailsformat(fe)
-            sendmail(extra["email"], "Event Deleted", f"Hey {extra['name']}! Your event was deleted by {uname}.\n\nEvent Details:\n\n{details}\n\nThank You!")
-            sendlog(f"#EventDelete \nEvent Deleted by {uname}.\nEvent Details:\n\n{details}")
-            return redirect(url_for("home"))
-        except Exception as e:
-            sendlog(f"Error Deleting Event {eventid}: {e}")
-            return f"Error: {e}"
-    else:
-        return redirect(url_for("home"))
+    return delete_eventfromid(c, eventid, session, redirect, url_for)
 
 @app.route("/logout")
 def logout():

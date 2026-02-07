@@ -88,7 +88,7 @@
                             <span id="eventlike-{{e.eventid}}" class="like-count">{{ e.likes }}</span>
 
                             <button class="campaign-tag" onclick="openeventchat({{ e.eventid }})">{{ translate('Open chat for this event') }}</button>
-                            <button class="campaign-tag" onclick="viewyourevents('{{ e.username }}')">{{ translate('View all events by them') }}</button>
+                            <button class="campaign-tag" onclick="window.location.href='/user/{{ e.username }}'">{{ translate('Open Profile') }}</button>
 
                             {% if e.username == c_user or isadmin %}
                                 <button onclick="asktodelete({{ e.eventid }})" class="delete-btn">{{ translate("Delete Event") }}</button>

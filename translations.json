@@ -1,84 +1,237 @@
 {
-    "EcoCamp": {
-        "hi": "इकोकैंप"
+    "Toggle navigation": {
+        "hi": "टॉगल से संचालित करना"
     },
-    "Logout": {
-        "hi": "लॉग आउट"
-    },
-    "22 November 2025": {
-        "hi": "22 नवंबर 2025"
-    },
-    "Pending": {
-        "hi": "लंबित"
-    },
-    "Change Language": {
-        "hi": "भाषा बदलें"
-    },
-    "Username:": {
-        "hi": "उपयोगकर्ता नाम:"
-    },
-    "Location:": {
-        "hi": "जगह:"
-    },
-    "Palghar": {
-        "hi": "Palghar"
-    },
-    "Sort by End Date": {
-        "hi": "अंतिम तिथि के अनुसार क्रमबद्ध करें"
-    },
-    "Contact": {
-        "hi": "संपर्क"
-    },
-    "Close": {
-        "hi": "बंद करना"
-    },
-    "Reload": {
-        "hi": "पुनः लोड करें"
-    },
-    "Click here to reload": {
-        "hi": "पुनः लोड करने के लिए यहां क्लिक करें"
-    },
-    "A Greener Tomorrow!": {
-        "hi": "एक हरा-भरा कल!"
-    },
-    "Tree Plantation": {
-        "hi": "वृक्षारोपण"
-    },
-    "Add": {
-        "hi": "जोड़ना"
+    "Home": {
+        "hi": "घर"
     },
     "Email:": {
         "hi": "ईमेल:"
     },
-    "Tree plantation": {
-        "hi": "वृक्षारोपण"
-    },
-    "Hey": {
-        "hi": "अरे"
-    },
     "Campaigns": {
         "hi": "अभियान"
     },
-    "Sort by Start Date": {
-        "hi": "आरंभ दिनांक के अनुसार क्रमबद्ध करें"
+    "Reload": {
+        "hi": "पुनः लोड करें"
     },
-    "Sort by Location": {
-        "hi": "स्थान के अनुसार क्रमबद्ध करें"
+    "Pending": {
+        "hi": "लंबित"
     },
-    "Toggle navigation": {
-        "hi": "टॉगल से संचालित करना"
+    "Add": {
+        "hi": "जोड़ना"
+    },
+    "Loading form...": {
+        "hi": "फॉर्म लोड हो रहा है..."
+    },
+    "EcoCamp": {
+        "hi": "इकोकैंप"
+    },
+    "A Greener Tomorrow!": {
+        "hi": "एक हरा-भरा कल!"
+    },
+    "Contact": {
+        "hi": "संपर्क"
+    },
+    "Informal": {
+        "hi": "अनौपचारिक"
+    },
+    "Welcome": {
+        "hi": "स्वागत"
     },
     "Close this message": {
         "hi": "इस संदेश को बंद करें"
     },
-    "From Date and Time:": {
-        "hi": "दिनांक और समय से:"
+    "Hey": {
+        "hi": "अरे"
+    },
+    "An error occurred.": {
+        "hi": "एक त्रुटि पाई गई।"
+    },
+    "Username:": {
+        "hi": "उपयोगकर्ता नाम:"
+    },
+    "Are you sure?": {
+        "hi": "क्या आपको यकीन है?"
+    },
+    "Processing...": {
+        "hi": "प्रसंस्करण..."
+    },
+    "Logout": {
+        "hi": "लॉग आउट"
+    },
+    "Event Chat": {
+        "hi": "इवेंट चैट"
+    },
+    "Failed to load content. Please try again.": {
+        "hi": "सामग्री लोड करने में विफल. कृपया पुन: प्रयास करें।"
+    },
+    "Contact Us": {
+        "hi": "हमसे संपर्क करें"
+    },
+    "Join hands to protect our green planet. Start a campaign, plant hope for a brighter, cleaner tomorrow.": {
+        "hi": "हमारे हरे ग्रह की रक्षा के लिए हाथ मिलाएं। एक अभियान शुरू करें, एक उज्जवल, स्वच्छ कल की आशा का पौधारोपण करें।"
+    },
+    "Loading pending events...": {
+        "hi": "लंबित इवेंट लोड हो रहे हैं..."
+    },
+    "Close": {
+        "hi": "बंद करना"
+    },
+    "Loading campaigns...": {
+        "hi": "अभियान लोड हो रहे हैं..."
+    },
+    "Events added by you.": {
+        "hi": "आपके द्वारा जोड़े गए ईवेंट."
+    },
+    "Retry": {
+        "hi": "पुन: प्रयास करें"
+    },
+    "Promotional": {
+        "hi": "प्रोमोशनल"
+    },
+    "Events: Total": {
+        "hi": "घटनाएँ: कुल"
+    },
+    "Sending...": {
+        "hi": "भेजा जा रहा है..."
+    },
+    "Entertaining": {
+        "hi": "मनोरंजक"
+    },
+    "Click here to reload": {
+        "hi": "पुनः लोड करने के लिए यहां क्लिक करें"
+    },
+    "Formal": {
+        "hi": "औपचारिक"
+    },
+    "Click Here To View Your Events": {
+        "hi": "अपने ईवेंट देखने के लिए यहां क्लिक करें"
+    },
+    "Active Campaigns:": {
+        "hi": "सक्रिय अभियान:"
+    },
+    "Change Language": {
+        "hi": "भाषा बदलें"
+    },
+    "Failed to generate descriptions. Please try again.": {
+        "hi": "विवरण उत्पन्न करने में विफल. कृपया पुन: प्रयास करें।"
+    },
+    "Send OTP": {
+        "hi": "ओटीपी भेजें"
+    },
+    "Find campaigns to join or create your own.": {
+        "hi": "शामिल होने या अपना स्वयं का अभियान बनाने के लिए अभियान खोजें।"
+    },
+    "Have a question or feedback?  Send us a message, email: ": {
+        "hi": "कोई प्रश्न या प्रतिक्रिया है?  हमें एक संदेश भेजें, ईमेल करें:"
+    },
+    "A reason is required to decline this event:": {
+        "hi": "इस ईवेंट को अस्वीकार करने के लिए एक कारण आवश्यक है:"
+    },
+    "Decline action cancelled.": {
+        "hi": "अस्वीकार कार्रवाई रद्द कर दी गई."
+    },
+    "Description updated!": {
+        "hi": "विवरण अपडेट किया गया!"
+    },
+    "Welcome to EcoCamp!": {
+        "hi": "इकोकैंप में आपका स्वागत है!"
+    },
+    "Generating the descriptions please wait some seconds...": {
+        "hi": "विवरण तैयार करने के लिए कृपया कुछ सेकंड प्रतीक्षा करें..."
+    },
+    "If not changed please try to reload the page or click the button below to reload!": {
+        "hi": "यदि नहीं बदला है तो कृपया पृष्ठ को पुनः लोड करने का प्रयास करें या पुनः लोड करने के लिए नीचे दिए गए बटन पर क्लिक करें!"
+    },
+    "Please fill in ALL fields (Name, Location, Category, Dates, Times) before generating.": {
+        "hi": "कृपया जनरेट करने से पहले सभी फ़ील्ड (नाम, स्थान, श्रेणी, दिनांक, समय) भरें।"
+    },
+    "Failed to send OTP.": {
+        "hi": "ओटीपी भेजने में विफल."
+    },
+    "Language changed to ": {
+        "hi": "भाषा बदल गयी"
+    },
+    "Failed to set language": {
+        "hi": "भाषा सेट करने में विफल"
+    },
+    "Could not change language right now. Please try again.": {
+        "hi": "अभी भाषा नहीं बदली जा सकी. कृपया पुन: प्रयास करें।"
+    },
+    "Please wait changing language to ": {
+        "hi": "कृपया भाषा बदलने की प्रतीक्षा करें"
+    },
+    "Please enter a valid email address.": {
+        "hi": "कृपया एक मान्य ईमेल पता प्रविष्ट करें।"
+    },
+    "Open Profile": {
+        "hi": "प्रोफ़ाइल खोलें"
+    },
+    "Sort by End Time": {
+        "hi": "समाप्ति समय के अनुसार क्रमबद्ध करें"
+    },
+    "Back to All Categories": {
+        "hi": "सभी श्रेणियों पर वापस जाएँ"
+    },
+    "Sort by End Date": {
+        "hi": "अंतिम तिथि के अनुसार क्रमबद्ध करें"
+    },
+    "Thike": {
+        "hi": "Thike"
+    },
+    "Sort by Location": {
+        "hi": "स्थान के अनुसार क्रमबद्ध करें"
     },
     "Delete Event": {
         "hi": "ईवेंट हटाएँ"
     },
+    "29 December 2026": {
+        "hi": "29 दिसंबर 2026"
+    },
+    "Location:": {
+        "hi": "जगह:"
+    },
+    "Read Less": {
+        "hi": "कम पढ़ें"
+    },
+    "31 January 2026": {
+        "hi": "31 जनवरी 2026"
+    },
     "29 November 2025": {
         "hi": "29 नवंबर 2025"
+    },
+    "Sort by Start Date": {
+        "hi": "आरंभ दिनांक के अनुसार क्रमबद्ध करें"
+    },
+    "Tree plantation, India": {
+        "hi": "वृक्षारोपण, भारत"
+    },
+    "25 December 2027": {
+        "hi": "25 दिसंबर 2027"
+    },
+    "Sort by Event ID": {
+        "hi": "इवेंट आईडी के आधार पर क्रमबद्ध करें"
+    },
+    "Open chat for this event": {
+        "hi": "इस इवेंट के लिए चैट खोलें"
+    },
+    "26 January 2026": {
+        "hi": "26 जनवरी 2026"
+    },
+    "Community Center": {
+        "hi": "सामुदायिक केंद्र"
+    },
+    "Community Tree Plantation": {
+        "hi": "सामुदायिक वृक्षारोपण"
+    },
+    "Tree plantation": {
+        "hi": "वृक्षारोपण"
+    },
+    "From Date and Time:": {
+        "hi": "दिनांक और समय से:"
+    },
+    "Khoon Dan": {
+        "hi": "Khoon Dan"
     },
     "Sort by Start Time": {
         "hi": "प्रारंभ समय के अनुसार क्रमबद्ध करें"
@@ -89,83 +242,86 @@
     "Sort by Name": {
         "hi": "नाम के अनुसार क्रमबद्ध करें"
     },
-    "Home": {
-        "hi": "घर"
+    "Search campaigns in this category...": {
+        "hi": "इस श्रेणी में खोज अभियान..."
     },
-    "Active Campaigns:": {
-        "hi": "सक्रिय अभियान:"
+    "Riverside Park": {
+        "hi": "रिवरसाइड पार्क"
     },
-    "Events added by you.": {
-        "hi": "आपके द्वारा जोड़े गए ईवेंट."
+    "In India, Palghar": {
+        "hi": "In India, Palghar"
     },
-    "Sort by End Time": {
-        "hi": "समाप्ति समय के अनुसार क्रमबद्ध करें"
+    "Palghar": {
+        "hi": "Palghar"
+    },
+    "25 January 2026": {
+        "hi": "25 जनवरी 2026"
+    },
+    "Neighborhood Blood Donation Camp": {
+        "hi": "पड़ोस रक्तदान शिविर"
+    },
+    "Tree Plantation": {
+        "hi": "वृक्षारोपण"
+    },
+    "Cleanlines Drive": {
+        "hi": "स्वच्छता अभियान"
+    },
+    "Local Cleanliness Drive": {
+        "hi": "स्थानीय स्वच्छता अभियान"
+    },
+    "hbbh": {
+        "hi": "एचबीबी"
+    },
+    "Read More": {
+        "hi": "और पढ़ें"
+    },
+    "28 January 2026": {
+        "hi": "28 जनवरी 2026"
+    },
+    "30 November 2026": {
+        "hi": "30 नवंबर 2026"
+    },
+    "City Hall": {
+        "hi": "सिटी हॉल"
+    },
+    "30 November 2025": {
+        "hi": "30 नवंबर 2025"
     },
     "Blood Donation": {
         "hi": "रक्तदान"
     },
-    "Click Here To View Your Events": {
-        "hi": "अपने ईवेंट देखने के लिए यहां क्लिक करें"
+    "30 December 2027": {
+        "hi": "30 दिसंबर 2027"
     },
-    "Welcome": {
-        "hi": "स्वागत"
+    "30 January 2026": {
+        "hi": "30 जनवरी 2026"
     },
-    "Pending Event Approvals": {
-        "hi": "लंबित ईवेंट स्वीकृतियाँ"
-    },
-    "Search campaigns in this category...": {
-        "hi": "इस श्रेणी में खोज अभियान..."
-    },
-    "06 December 2025": {
-        "hi": "06 दिसंबर 2025"
-    },
-    "Events: Total": {
-        "hi": "घटनाएँ: कुल"
-    },
-    "Back to All Categories": {
-        "hi": "सभी श्रेणियों पर वापस जाएँ"
-    },
-    "Description": {
-        "hi": "विवरण"
-    },
-    "Find campaigns to join or create your own.": {
-        "hi": "शामिल होने या अपना स्वयं का अभियान बनाने के लिए अभियान खोजें।"
-    },
-    "Sort by Event ID": {
-        "hi": "इवेंट आईडी के आधार पर क्रमबद्ध करें"
-    },
-    "Join hands to protect our green planet. Start a campaign, plant hope for a brighter, cleaner tomorrow.": {
-        "hi": "हमारे हरे ग्रह की रक्षा के लिए हाथ मिलाएं। एक अभियान शुरू करें, एक उज्जवल, स्वच्छ कल की आशा का पौधारोपण करें।"
-    },
-    "Event ID": {
-        "hi": "इवेंट आईडी"
-    },
-    "Welcome to EcoCamp!": {
-        "hi": "इकोकैंप में आपका स्वागत है!"
-    },
-    "Submitted By": {
-        "hi": "द्वारा प्रस्तुत किया गया"
-    },
-    "Name, Location, Category": {
-        "hi": "नाम, स्थान, श्रेणी"
-    },
-    "Review and approve or decline new campaign submissions. All fields are editable before approval.": {
-        "hi": "नए अभियान सबमिशन की समीक्षा करें और उसे स्वीकृत या अस्वीकार करें। अनुमोदन से पहले सभी फ़ील्ड संपादन योग्य हैं।"
-    },
-    "There are currently no pending events to approve.": {
-        "hi": "वर्तमान में अनुमोदन के लिए कोई भी घटना लंबित नहीं है।"
-    },
-    "Add details for your campaign below. Once approved, it will appear in the campaign list for everyone to see.": {
-        "hi": "नीचे अपने अभियान का विवरण जोड़ें. एक बार स्वीकृत हो जाने पर, यह सभी के देखने के लिए अभियान सूची में दिखाई देगा।"
-    },
-    "Dates & Times": {
-        "hi": "दिनांक एवं समय"
+    "View All": {
+        "hi": "सभी को देखें"
     },
     "Start Date": {
         "hi": "आरंभ करने की तिथि"
     },
+    "Start Time": {
+        "hi": "समय शुरू"
+    },
     "End Date": {
         "hi": "अंतिम तिथि"
+    },
+    "End Time": {
+        "hi": "अंत समय"
+    },
+    "Reset": {
+        "hi": "रीसेट करें"
+    },
+    "Tips for Success": {
+        "hi": "सफलता के लिए युक्तियाँ"
+    },
+    "Add the location or place id for clarity.": {
+        "hi": "स्पष्टता के लिए स्थान या स्थान आईडी जोड़ें।"
+    },
+    "Choose the correct category.": {
+        "hi": "सही श्रेणी चुनें."
     },
     "Location (Max 30)": {
         "hi": "स्थान (अधिकतम 30)"
@@ -173,310 +329,58 @@
     "Campaign Name (Max 50)": {
         "hi": "अभियान का नाम (अधिकतम 50)"
     },
-    "Reset": {
-        "hi": "रीसेट करें"
-    },
-    "Start Time": {
-        "hi": "समय शुरू"
-    },
     "Create a New Campaign": {
         "hi": "एक नया अभियान बनाएँ"
     },
     "Select a category": {
         "hi": "एक श्रेणी चुनें"
     },
-    "Cleanlines Drive": {
-        "hi": "स्वच्छता अभियान"
-    },
-    "Tips for Success": {
-        "hi": "सफलता के लिए युक्तियाँ"
-    },
-    "End Time": {
-        "hi": "अंत समय"
-    },
-    "Description (Max 500)": {
-        "hi": "विवरण (अधिकतम 500)"
-    },
-    "Contact Us": {
-        "hi": "हमसे संपर्क करें"
-    },
-    "Click on any one to select": {
-        "hi": "चयन करने के लिए किसी एक पर क्लिक करें"
-    },
-    "Generate description from ai": {
-        "hi": "एआई से विवरण तैयार करें"
-    },
-    "Need help crafting a description? Use our AI generator!": {
-        "hi": "विवरण तैयार करने में सहायता चाहिए? हमारे AI जनरेटर का उपयोग करें!"
-    },
-    "Choose the correct category.": {
-        "hi": "सही श्रेणी चुनें."
+    "Add details for your campaign below. Once approved, it will appear in the campaign list for everyone to see.": {
+        "hi": "नीचे अपने अभियान का विवरण जोड़ें. एक बार स्वीकृत हो जाने पर, यह सभी के देखने के लिए अभियान सूची में दिखाई देगा।"
     },
     "Use clear, concise titles.": {
         "hi": "स्पष्ट, संक्षिप्त शीर्षकों का प्रयोग करें।"
     },
-    "Short descriptions work best!": {
-        "hi": "संक्षिप्त विवरण सबसे अच्छा काम करते हैं!"
-    },
-    "Please fill in ALL fields (Name, Location, Category, Dates, Times) before generating.": {
-        "hi": "कृपया जनरेट करने से पहले सभी फ़ील्ड (नाम, स्थान, श्रेणी, दिनांक, समय) भरें।"
-    },
-    "Generating the descriptions please hold some seconds...": {
-        "hi": "विवरण तैयार करते समय कृपया कुछ सेकंड रुकें..."
+    "Description (Max 500)": {
+        "hi": "विवरण (अधिकतम 500)"
     },
     "Submit Campaign": {
         "hi": "अभियान सबमिट करें"
     },
-    "Add the location or place id for clarity.": {
-        "hi": "स्पष्टता के लिए स्थान या स्थान आईडी जोड़ें।"
-    },
-    "Decline action cancelled.": {
-        "hi": "अस्वीकार कार्रवाई रद्द कर दी गई."
-    },
-    "A reason is required to decline this event:": {
-        "hi": "इस ईवेंट को अस्वीकार करने के लिए एक कारण आवश्यक है:"
-    },
-    "Have a question or feedback?  Send us a message, email: ": {
-        "hi": "कोई प्रश्न या प्रतिक्रिया है?  हमें एक संदेश भेजें, ईमेल करें:"
-    },
-    "Please wait changing language to ": {
-        "hi": "कृपया भाषा बदलने की प्रतीक्षा करें"
-    },
-    "Please enter a valid email address.": {
-        "hi": "कृपया एक मान्य ईमेल पता प्रविष्ट करें।"
-    },
-    "Informal": {
-        "hi": "अनौपचारिक"
-    },
-    "Promotional": {
-        "hi": "प्रोमोशनल"
-    },
-    "Processing...": {
-        "hi": "प्रसंस्करण..."
-    },
-    "Entertaining": {
-        "hi": "मनोरंजक"
-    },
-    "Formal": {
-        "hi": "औपचारिक"
-    },
-    "An error occurred.": {
-        "hi": "एक त्रुटि पाई गई।"
-    },
-    "Sending...": {
-        "hi": "भेजा जा रहा है..."
-    },
-    "Are you sure?": {
-        "hi": "क्या आपको यकीन है?"
-    },
-    "Failed to send OTP.": {
-        "hi": "ओटीपी भेजने में विफल."
-    },
-    "Send OTP": {
-        "hi": "ओटीपी भेजें"
-    },
-    "Could not change language right now. Please try again.": {
-        "hi": "अभी भाषा नहीं बदली जा सकी. कृपया पुन: प्रयास करें।"
-    },
-    "Failed to generate descriptions. Please try again.": {
-        "hi": "विवरण उत्पन्न करने में विफल. कृपया पुन: प्रयास करें।"
-    },
-    "If not changed please try to reload the page or click the button below to reload!": {
-        "hi": "यदि नहीं बदला है तो कृपया पृष्ठ को पुनः लोड करने का प्रयास करें या पुनः लोड करने के लिए नीचे दिए गए बटन पर क्लिक करें!"
-    },
-    "Description updated!": {
-        "hi": "विवरण अपडेट किया गया!"
-    },
-    "Failed to set language": {
-        "hi": "भाषा सेट करने में विफल"
-    },
-    "Language changed to ": {
-        "hi": "भाषा बदल गयी"
-    },
-    "Event Chat": {
-        "hi": "Event Chat"
-    },
-    "30 November 2026": {
-        "hi": "30 November 2026"
-    },
-    "Riverside Park": {
-        "hi": "Riverside Park"
-    },
-    "Open chat for this event": {
-        "hi": "Open chat for this event"
-    },
-    "Khoon Dan": {
-        "hi": "Khoon Dan"
-    },
-    "Neighborhood Blood Donation Camp": {
-        "hi": "Neighborhood Blood Donation Camp"
-    },
-    "View all events by them": {
-        "hi": "View all events by them"
-    },
-    "Read More": {
-        "hi": "Read More"
-    },
-    "Read Less": {
-        "hi": "Read Less"
-    },
-    "City Hall": {
-        "hi": "City Hall"
-    },
-    "30 December 2027": {
-        "hi": "30 December 2027"
-    },
-    "30 November 2025": {
-        "hi": "30 November 2025"
-    },
-    "Local Cleanliness Drive": {
-        "hi": "Local Cleanliness Drive"
-    },
-    "Community Center": {
-        "hi": "Community Center"
-    },
-    "Community Tree Plantation": {
-        "hi": "Community Tree Plantation"
-    },
-    "30 December 2026": {
-        "hi": "30 December 2026"
-    },
-    "Thike": {
-        "hi": "Thike"
-    },
-    "29 December 2026": {
-        "hi": "29 दिसंबर 2026"
-    },
-    "Location": {
-        "hi": "जगह"
-    },
-    "Category": {
-        "hi": "वर्ग"
-    },
-    "Decline": {
-        "hi": "गिरावट"
-    },
-    "End": {
-        "hi": "अंत"
-    },
-    "Start": {
-        "hi": "शुरू"
-    },
-    "Approve": {
-        "hi": "मंज़ूरी देना"
-    },
-    "Event Name": {
-        "hi": "घटना नाम"
-    },
-    "View All": {
-        "hi": "सभी को देखें"
-    },
-    "Food Donation": {
-        "hi": "अन्न दान"
-    },
-    "Open for new ideas": {
-        "hi": "नए विचारों के लिए खुला"
-    },
-    "Awareness Workshop": {
-        "hi": "जागरूकता कार्यशाला"
-    },
-    "E-Waste Collection": {
-        "hi": "ई-कचरा संग्रहण"
-    },
-    "Community-powered climate action": {
-        "hi": "समुदाय संचालित जलवायु कार्रवाई"
-    },
-    "Campaign Name": {
-        "hi": "अभियान का नाम"
-    },
-    "Beach Cleanup": {
-        "hi": "समुद्र तट की सफ़ाई"
-    },
-    "Impact you can spark": {
-        "hi": "प्रभाव आप चिंगारी कर सकते हैं"
-    },
-    "Theme": {
-        "hi": "विषय"
-    },
-    "Animal Welfare": {
-        "hi": "पशु कल्याण"
-    },
-    "Health Camp": {
-        "hi": "स्वास्थ्य शिविर"
-    },
-    "Active campaigns": {
-        "hi": "सक्रिय अभियान"
-    },
-    "Switch to dark mode": {
-        "hi": "डार्क मोड पर स्विच करें"
-    },
-    "Switch to light mode": {
-        "hi": "लाइट मोड पर स्विच करें"
-    },
-    "05 December 2025": {
-        "hi": "05 दिसंबर 2025"
-    },
-    "Login to like this event.": {
-        "hi": "इस इवेंट को पसंद करने के लिए लॉगिन करें."
-    },
-    "Password": {
-        "hi": "पासवर्ड"
-    },
-    "Username": {
-        "hi": "उपयोगकर्ता नाम"
-    },
-    "Login": {
-        "hi": "लॉग इन करें"
-    },
-    "Enter OTP": {
-        "hi": "ओटीपी दर्ज करें"
-    },
-    "Full Name": {
-        "hi": "पूरा नाम"
-    },
-    "Sign Up": {
-        "hi": "साइन अप करें"
-    },
-    "Email": {
-        "hi": "ईमेल"
-    },
-    "03 July 2025": {
-        "hi": "03 जुलाई 2025"
-    },
-    "Confirm Password": {
-        "hi": "पासवर्ड की पुष्टि कीजिये"
-    },
-    "Username or Email": {
-        "hi": "उपयोगकर्ता का नाम या ईमेल"
-    },
-    "10 January 2026": {
-        "hi": "10 जनवरी 2026"
-    },
     "Click any option below to auto-fill the description": {
         "hi": "विवरण स्वतः भरने के लिए नीचे दिए गए किसी भी विकल्प पर क्लिक करें"
     },
-    "Generating the descriptions please wait some seconds...": {
-        "hi": "विवरण तैयार करने के लिए कृपया कुछ सेकंड प्रतीक्षा करें..."
+    "Generate description from ai": {
+        "hi": "एआई से विवरण तैयार करें"
     },
-    "To avoid spam, we recommend you to please login before generating AI description.": {
-        "hi": "स्पैम से बचने के लिए, हम आपको सलाह देते हैं कि एआई विवरण तैयार करने से पहले कृपया लॉगिन करें।"
+    "Short descriptions work best!": {
+        "hi": "संक्षिप्त विवरण सबसे अच्छा काम करते हैं!"
     },
-    "31 January 2026": {
-        "hi": "31 जनवरी 2026"
+    "Need help crafting a description? Use our AI generator!": {
+        "hi": "विवरण तैयार करने में सहायता चाहिए? हमारे AI जनरेटर का उपयोग करें!"
     },
-    "hbbh": {
-        "hi": "एचबीबी"
+    "← Back to Home": {
+        "hi": "← घर वापस"
     },
-    "25 January 2026": {
-        "hi": "25 जनवरी 2026"
+    "Email Address": {
+        "hi": "मेल पता"
     },
-    "26 January 2026": {
-        "hi": "26 जनवरी 2026"
+    "Back to Dashboard": {
+        "hi": "डैशबोर्ड पर वापस जाएँ"
     },
-    "30 January 2026": {
-        "hi": "30 जनवरी 2026"
+    "Contact User": {
+        "hi": "उपयोगकर्ता से संपर्क करें"
     },
-    "25 December 2027": {
-        "hi": "25 दिसंबर 2027"
+    "Events Created": {
+        "hi": "इवेंट बनाए गए"
+    },
+    "Account Role": {
+        "hi": "खाता भूमिका"
+    },
+    "Click Here To View Events Created By Them": {
+        "hi": "उनके द्वारा बनाए गए इवेंट देखने के लिए यहां क्लिक करें"
+    },
+    "View All Events": {
+        "hi": "सभी घटनाएँ देखें"
     }
 }

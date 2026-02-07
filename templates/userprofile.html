@@ -52,12 +52,12 @@
         <a href="/" class="brand">
             <div class="logo">EC</div>
             <div class="brand-text">
-                <div>EcoCamp</div>
-                <div>A Greener Tomorrow!</div>
+                <div>{{ translate("EcoCamp") }}</div>
+                <div>{{ translate("A Greener Tomorrow!") }}</div>
             </div>
         </a>
         <div class="nav-links-container">
-            <a href="/" class="navlink">← Back to Home</a>
+            <a href="/" class="navlink">{{ translate("← Back to Home") }}</a>
         </div>
     </div>
 </header>
@@ -66,7 +66,7 @@
     <div class="container">
         <div class="profile-card">
             <div class="profile-banner"></div>
-            
+
             <div class="profile-content">
                 <div class="profile-avatar">
                     {{ userdetails['name'][0] | upper if userdetails['name'] else 'U' }}
@@ -80,33 +80,33 @@
                         {% set event_list = userdetails['events'].split(',') if userdetails['events'] else [] %}
                         {% set event_count = event_list | length if userdetails['events'] else 0 %}
                         <span class="stat-value">{{ event_count }}</span>
-                        <span class="stat-label">Events Created</span>
+                        <span class="stat-label">{{ translate ("Events Created") }} </span>
                     </div>
                     <div class="stat-box">
                         <span class="stat-value">{{ userdetails['role'][0] | upper }}{{ userdetails["role"][1:] }}</span>
-                        <span class="stat-label">Account Role</span>
+                        <span class="stat-label">{{ translate("Account Role") }}</span>
                     </div>
                 </div>
 
                 <div class="stat-box" style="text-align: left; padding: 0;">
                     <div class="detail-row">
-                        <span class="detail-label">Email Address</span>
+                        <span class="detail-label">{{ translate("Email Address") }}</span>
                         <span class="detail-value">{{ userdetails['email'] }}</span>
                     </div>
                     {% if userdetails["events"] and userdetails["events"].split(',')|length > 0 %}
                         <div class="detail-row">
-                            <span class="detail-label">Campaigns</span>
+                            <span class="detail-label">{{ translate("Campaigns") }} ( {{ userdetails["events"].split(',')|length }} )</span>
                             {% set user_event_username = userdetails['username'] %}
                             <button class="detail-value" onclick="viewyourevents('{{ user_event_username }}')">
-                                Click Here To Wiew {{ userdetails["events"].split(',')|length }} Events Created By Them
+                                {{ translate("Click Here To View Events Created By Them") }}
                             </button>
                         </div>
                     {% endif %}
                 </div>
 
                 <div style="margin-top: 2rem;">
-                    <a href="mailto:{{ userdetails['email'] }}" class="btn btn-primary">Contact User</a>
-                    <a href="/" class="btn btn-outline" style="margin-left: 10px;">Back to Dashboard</a>
+                    <a href="mailto:{{ userdetails['email'] }}" class="btn btn-primary">{{ translate("Contact User") }}</a>
+                    <a href="/" class="btn btn-outline" style="margin-left: 10px;">{{ translate("Back to Dashboard") }}</a>
                 </div>
             </div>
         </div>
